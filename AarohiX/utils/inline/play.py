@@ -12,7 +12,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     pos = int(y)
 
     line = "╌"
-    circle = "♡"
+    circle = "𝐇𝐄𝐑𝐎"
 
     bar = line*(pos-1)
     bar += circle
@@ -51,10 +51,10 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
            InlineKeyboardButton(
-                text="💝ᴏᴡɴᴇʀ💝", url=f"https://t.me/HONEY_SINGH_121",
+                text="🌺🇴𝐖𝐍𝐄𝐑 🌺", url=f"https://t.me/iAMCuteHero",
             ),
            InlineKeyboardButton(
-                text="💖ᴍʏ ʟɪғᴇʟɪɴᴇ[❣️]💝", url=f"https://t.me/aarohi_ki_duniya",
+                text="💖🇧𝐇𝐀𝐈[🌷]💝", url=f"https://t.me/Ashiq_Boy",
             ),
         ],
         [
@@ -104,10 +104,10 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
            InlineKeyboardButton(
-                text="💝ᴏᴡɴᴇʀ💝", url=f"https://t.me/HONEY_SINGH_121",
+                text="🌺🇴𝐖𝐍𝐄𝐑 🌺", url=f"https://t.me/iAMCuteHero",
             ),
            InlineKeyboardButton(
-                text="💝ᴍʏ ʟɪғᴇʟɪɴᴇ[❣️]💝", url=f"https://t.me/aarohi_ki_duniya",
+                text="💖🇧𝐇𝐀𝐈[🌷]💝", url=f"https://t.me/Ashiq_Boy",
             ),
         ],
         [
@@ -150,10 +150,10 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
            InlineKeyboardButton(
-                text="💝ᴏᴡɴᴇʀ💝", url=f"https://t.me/HONEY_SINGH_121",
+                text="🌺🇴𝐖𝐍𝐄𝐑 🌺", url=f"https://t.me/iAMCuteHero",
             ),
            InlineKeyboardButton(
-                text="💝ᴍʏ ʟɪғᴇʟɪɴᴇ[❣️]💝", url=f"https://t.me/aarohi_ki_duniya",
+                text="💖🇧𝐇𝐀𝐈[🌷]💝", url=f"https://t.me/Ashiq_Boy",
             ),
         ],
         [
@@ -184,10 +184,10 @@ def telegram_markup(_, chat_id):
         ],
         [
            InlineKeyboardButton(
-                text="💝ᴏᴡɴᴇʀ💝", url=f"https://t.me/HONEY_SINGH_121",
+                text="🌺🇴𝐖𝐍𝐄𝐑 🌺", url=f"https://t.me/iAMCuteHero",
             ),
            InlineKeyboardButton(
-                text="💝ᴍʏ ʟɪғᴇʟɪɴᴇ[❣️]💝", url=f"https://t.me/aarohi_ki_duniya",
+                text="💖🇧𝐇𝐀𝐈[🌷]💝", url=f"https://t.me/Ashiq_Boy",
             ),
         ],
         [
@@ -341,10 +341,10 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
            InlineKeyboardButton(
-                text="💝ᴏᴡɴᴇʀ💝", url=f"https://t.me/HONEY_SINGH_121",
+                text="🌺🇴𝐖𝐍𝐄𝐑 🌺", url=f"https://t.me/iAMCuteHero",
             ),
            InlineKeyboardButton(
-                text="💝ᴍʏ ʟɪғᴇʟɪɴᴇ[❣️]💝", url=f"https://t.me/aarohi_ki_duniya",
+                text="💖🇧𝐇𝐀𝐈[🌷]💝", url=f"https://t.me/Ashiq_Boy",
             ),
         ],
         [
