@@ -10,7 +10,7 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="🥺 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩ [❤‍🔥ᴅɪʟ❤‍🔥] 🥺",
+                text="🥺 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩ [❤‍🔥𝐇𝐄𝐑𝐎❤‍🔥] 🥺",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
@@ -25,9 +25,9 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="💖 ғᴇᴇʟɪɴɢs 💖", url=f"https://t.me/LOVE_FEELINGS_WILL_121"),
+                text="💖 𝐌𝐘 𝐋𝐈𝐅𝐋𝐈𝐍𝐄 💖", url=f"https://t.me/iamcuteheroin"),
             InlineKeyboardButton(
-                text="🥰 ᴍʏ ʟɪғᴇʟɪɴᴇ[❣️] 🥰", url=f"https://t.me/aarohi_ki_duniya"
+                text="🥰 MY LOVE [❣️] 🥰", url=f"https://t.me/HeroKiDuniya"
             ),
         ],
         [
@@ -56,9 +56,9 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="💖 ғᴇᴇʟɪɴɢs 💖", url=f"https://t.me/LOVE_FEELINGS_WILL_121"),
+                text="💖 𝐌𝐘 𝐋𝐈𝐅𝐋𝐈𝐍𝐄 💖", url=f"https://t.me/iamcuteheroin"),
             InlineKeyboardButton(
-                text="🥰 ᴍʏ ʟɪғᴇʟɪɴᴇ[❣️] 🥰", url=f"https://t.me/aarohi_ki_duniya"
+                text="🥰 MY LOVE [❣️] 🥰", url=f"https://t.me/HeroKiDuniya"
             ),
         ],
         [
