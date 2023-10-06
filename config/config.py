@@ -7,26 +7,26 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
+API_ID = int(getenv("API_ID", "19879388"))
+API_HASH = getenv("API_HASH", "85c8121d1eb0618dcd9f2fd20b68828f")
 
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001898745590"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Hero430:Hero@hero.djda2kd.mongodb.net/?retryWrites=true&w=majority")
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001828975495"))
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "[ 𝐇𝐄𝐑𝐎 𝐱 𝐌𝐔𝐒𝐈𝐂 ]")
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", "2107529793").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "5832166784").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/stkeditz/AAROHIxMUSIC")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Royalhero16/AAROHIxMUSIC")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/LOVE_FEELINGS_WILL")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/LOVE_FEELINGS_WILL")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/anikahindishayri")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/fantastic_friends_forever")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
  
@@ -45,8 +45,8 @@ PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
 YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "5"))
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "3"))
 
-SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID","19609edb1b9f4ed7be0c8c1342039362")
-SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET","409e31d3ddd64af08cfcc3b0f064fcbe")
+SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID","2551d55ea1fe4a57995bb5f16de02fec")
+SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET","c31252ffc3be4a72a9ab4cb2bb2d085e")
 
 VIDEO_STREAM_LIMIT = int(getenv("VIDEO_STREAM_LIMIT", "5"))
 SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "50"))
@@ -76,28 +76,28 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/0c373d33859cd378dcafe.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/8e904425b527cb3045de2.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://te.legra.ph/file/a70c01f7564e558b7af0d.png",
+    "https://graph.org/file/8e904425b527cb3045de2.jpg",
 )
 
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/e68f585a0a2e4e5dc1164.jpg"
+PLAYLIST_IMG_URL = "https://te.legra.ph/file/196eb5236b1c91f294085.jpg"
 
 GLOBAL_IMG_URL = "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg"
 
-STATS_IMG_URL = "https://te.legra.ph/file/4a7c28726502e24ea0fe0.jpg"
+STATS_IMG_URL = "https://te.legra.ph/file/6639800cb665353a00647.jpg"
 
-TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/810f874873e1565cf5732.jpg"
+TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/1f65136ccaddeed00c67b.jpg"
 
-TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/16d7dd76f4ce8b8b01fdf.jpg"
+TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/1f65136ccaddeed00c67b.jpg"
 
 STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
 
 SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
 
-YOUTUBE_IMG_URL = "https://te.legra.ph/file/53f1a295e172d39eaa39d.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/e4e26e50d25a2cf448ab0.jpg"
 
 SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/5d90c3bc7f0d229194a9f.jpg"
 
@@ -130,9 +130,9 @@ if UPSTREAM_REPO:
 if PING_IMG_URL:
     if PING_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
-            PING_IMG_URL = "https://telegra.ph/file/56d1760224589ee370186.jpg"
+            PING_IMG_URL = "https://graph.org/file/8e904425b527cb3045de2.jpg"
 
 if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://te.legra.ph/file/0c373d33859cd378dcafe.jpg"
+            START_IMG_URL = "https://telegra.ph/file/8371be32cd092285e204f.jpg"
