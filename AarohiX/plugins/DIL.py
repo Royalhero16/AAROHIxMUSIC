@@ -11,27 +11,27 @@ from strings import get_command
 
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
-𝐇𝐄𝐑𝐎 = [" **◈ ━━━━━━━ ⸙ ♡ ⸙ ━━━━━━━ ◈** \n\n🍃**ʀᴇʟᴀᴛɪᴏɴsʜɪᴘ ᴅᴏsᴇɴ'ᴛ ɴᴇᴇᴅ ᴄᴜᴛᴇ ᴠᴏɪᴄᴇ ᴀɴᴅ ʟᴏᴠᴇʟʏ ғᴀᴄᴇ...**🍃 \n\n**🥺ʀᴇʟᴀᴛɪᴏɴsʜɪᴘ ɴᴇᴇᴅs ᴘᴜʀᴇ ʜᴇᴀʀᴛ ᴡɪᴛʜ ᴜɴʙʀᴇᴀᴋᴀʙʟᴇ ᴛʀᴜsᴛ🥺** \n\n**◈ ━━━━━━━ ⸙ ♡ ⸙ ━━━━━━━ ◈** ",
+DABANG = [" **◈ ━━━━━━━ ⸙ ♡ ⸙ ━━━━━━━ ◈** \n\n🍃**ʀᴇʟᴀᴛɪᴏɴsʜɪᴘ ᴅᴏsᴇɴ'ᴛ ɴᴇᴇᴅ ᴄᴜᴛᴇ ᴠᴏɪᴄᴇ ᴀɴᴅ ʟᴏᴠᴇʟʏ ғᴀᴄᴇ...**🍃 \n\n**🥺ʀᴇʟᴀᴛɪᴏɴsʜɪᴘ ɴᴇᴇᴅs ᴘᴜʀᴇ ʜᴇᴀʀᴛ ᴡɪᴛʜ ᴜɴʙʀᴇᴀᴋᴀʙʟᴇ ᴛʀᴜsᴛ🥺** \n\n**◈ ━━━━━━━ ⸙ ♡ ⸙ ━━━━━━━ ◈** ",
        " **◈ ━━━━━━━ ⸙ ♡ ⸙ ━━━━━━━ ◈** \n\n🍃**🌹❝◂ 𝐈 𝐏ʀᴏᴍɪsᴇ ▸**🍃 \n\n**◂𝐘ᴏᴜ 𝐇ᴀᴠᴇ 𝐌ᴇ,𝐔ɴᴛɪʟ 𝐌ʏ 𝐋ᴀsᴛ 𝐁ʀᴇᴀᴛʜ▸❞🌹** \n\n**◈ ━━━━━━━ ⸙ ♡ ⸙ ━━━━━━━ ◈** ",
        " **◈ ━━━━━━━ ⸙ ♡ ⸙ ━━━━━━━ ◈** \n\n 🍃**Koyi Aaye Na Jaye Na, Aao Na Aisi Jagah Pe Le Chalun**🍃 \n\n**✨❤️ Jahaan Waqt Humara Ruka Ho,Aur Main Apne Dil Ki Kahun ♥️✨** \n\n**◈ ━━━━━━━ ⸙ ♡ ⸙ ━━━━━━━ ◈** "]
 
-# Command of HERO
-HeRO = get_command("HERO")
+# Command of DILxAAROHI
+DIL_COMMAND = get_command("DIL_COMMAND")
 
 @app.on_message(
-    filters.command(HERO)
+    filters.command(DIL_COMMAND)
     & filters.group
     & ~filters.edited & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_text(
-        text = random.choice(HERO),
+        text = random.choice(DIL),
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "☘️𝐌𝐘 𝐋𝐈𝐅𝐄𝐋𝐈𝐍𝐄", url=f"https://t.me/iamcuteheroin"),
+                        "🥰𝐎𝐖𝐍𝐄𝐑🥰", url=f"https://t.me/iamcutehero"),
                     InlineKeyboardButton(
-                        "💝𝕃𝕆𝕍𝔼💝", url=f"https://t.me/iamcutehero")
+                        "🧸𝐁𝐑𝐎𝐓𝐇𝐄𝐑🧸", url=f"https://t.me/Royal_king365")
                     
                 ]
             ]
@@ -39,7 +39,7 @@ async def help(client: Client, message: Message):
     )
 
 @app.on_message(
-    filters.command(HERO_COMAND)
+    filters.command(DIL_COMMAND)
     & filters.private
     & ~filters.edited & filters.private & ~filters.edited)
 async def help(client: Client, message: Message):
@@ -49,9 +49,9 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "☘️𝐌𝐘 𝐋𝐈𝐅𝐄𝐋𝐈𝐍𝐄", url=f"https://t.me/iamcuteheroin"),
+                        "🥰𝐎𝐖𝐍𝐄𝐑🥰", url=f"https://t.me/iamcutehero"),
                     InlineKeyboardButton(
-                        "💝𝕃𝕆𝕍𝔼💝", url=f"https://t.me/iamcutehero")
+                        "🧸𝐁𝐑𝐎𝐓𝐇𝐄𝐑🧸", url=f"https://t.me/Royal_king365")
                     
                 ]
             ]
